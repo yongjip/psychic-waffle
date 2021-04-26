@@ -1,61 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
 	<head>
 		<title>Calculator</title>
-	</head>
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="js/script.js" defer></script>
+  </head>
 	<body>
-    <div class='container'>  
-      <div id='calculator'>
-      
-    <!-- TITLE -->
-
-      <div id='title' class='text-center'>
-        <h5><b>Calculator</b></h5>
-      </div>
-    <!-- ENTRY BOX -->
-    <div id='entrybox' class='text-right'>
-      <div id='entry'>
-          <p id='answer'>0</p>
-      </div>
-      <div id='history'>
-        <p>0</p>
+    <div class='calculator-grid'>
+      <div class='output'>
+        <div class='question'></div>
+        <div class='answer'></div>
       </div>
     </div>
 
-    <!-- BUTTONS -->
-    <div id='buttons'>
+    <button>AC</button>
+    <button class='span-two'>DEL</button>
 
-      <button class='red' value='reset'>reset</button>
-      <button class='red' value='delete'>delete</button>
-      <button class='invisible'>N</button>
+    <button>K</button>
+    <button>M</button>
+    <button>B</button>
 
-      <button value='k'>K</button>
-      <button value='m'>M</button>
-      <button value='b'>B</button>
+    <button>1</button>
+    <button>2</button>
+    <button>3</button>
+    
+    <button>4</button>
+    <button>5</button>
+    <button>6</button>
 
-      <button value='7'>7</button>
-      <button value='8'>8</button>
-      <button value='9'>9</button>
+    <button>7</button>
+    <button>8</button>
+    <button>9</button>
 
-      <button value='4'>4</button>
-      <button value='5'>5</button>
-      <button value='6'>6</button>
+    <button>.</button>
+    <button>0</button>
+    <button>=</button>
 
-      <button value='1'>1</button>
-      <button value='2'>2</button>
-      <button value='3'>3</button>
-
-      <button id='zeroButton' value='0'>0</button>
-      <button value='.'>.</button>
-      <button id='equalButton' value='='>=</button>
-
-    </div>
-    <!-- end buttons -->
-    <div id='tester'></div>
-  </div>
-</div>
-
-<footer id='footer' class='text-center'>
+    <footer id='footer' class='text-center'>
   <div class='container'>
 <!--    Designed & Coded by-->
     <a href="https://github.com/yongjip/psychic-waffle" target="_blank">Gapp & Yongjip</a>
