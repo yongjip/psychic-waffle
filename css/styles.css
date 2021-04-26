@@ -8,7 +8,7 @@
 body {
     padding: 0;
     margin: 0;
-    background: liners-gradient(to right #00AAFF, #00FF6C);
+    background: linear-gradient(to right, #00AAFF, #00FF6C);
 }
 
 .calculator-grid {
@@ -16,8 +16,8 @@ body {
     justify-content: center;
     align-content: center;
     min-height: 100vh;
-    grid-template-columns: repeat(4, 100px);
-    grid-template-columns: minmax(120px, auto) repeat(6, 100px);
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(6, 100px);
 }
 
 .calculator-grid > button {
